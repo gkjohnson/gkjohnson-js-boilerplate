@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "static-server",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "static-server": "^3.0.0",
+  }
+}
