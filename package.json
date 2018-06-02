@@ -5,6 +5,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "static-server": "^3.0.0"
+    "static-server": "^3.0.0",
+    "eslint": "",
+    "eslint-plugin-html": "",
+    "parcel-bundler": ""
   }
 }
