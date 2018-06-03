@@ -43,6 +43,10 @@ TODO get familiar, document
 
 Requires editor plugin sometimes
 
+#### [VSCode User Settings](.vscodesettings)
+
+Settings so ESLint works on HTML files.
+
 ### Editor
 
 VSCode
