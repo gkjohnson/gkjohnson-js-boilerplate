@@ -27,31 +27,33 @@ TODO document test procedure
 
 ### Code-Style
 
-#### ESLint
+#### [ESLint](.eslintrc)
 
-TODO document `eslintrc`
+Requires a `eslint` and `eslint-plugin-html` packages to be installed to work.
 
-#### HTMLHint
+#### [HTMLHint](.htmlhintrc)
 
-TODO document `htmlhintrc`
+Requires `htmlhint` packages to be installed.
 
-#### StyleLint
+#### [StyleLint](.stylelintrc)
 
 TODO get familiar, document
 
-#### Auto-format
+#### [EditorConfig](.editorconfig)
 
-TODO figure out how to auto format
+Requires editor plugin sometimes
 
 ### Editor
 
 VSCode
 
-Sublime
-
 #### Plugins
 
-TODO document plugins
+ESLint for VSCode
+
+HTMLHint (for VSCode)
+
+EditorConfig for VSCode
 
 ### Helper Packages
 
