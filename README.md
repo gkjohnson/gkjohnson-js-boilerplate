@@ -18,7 +18,7 @@ A painless, nearly config-less build platform that can build staticly served htm
 
 ```sh
 # Build a project and output urls with a relative path
-parcel-bundler build <file.ext> --public-url ./
+parcel-bundler build <file.ext> --public-url ./ --no-cache --no-maps
 ```
 
 ### Tests
@@ -42,6 +42,10 @@ TODO get familiar, document
 #### [EditorConfig](.editorconfig)
 
 Requires editor plugin sometimes
+
+#### [VSCode User Settings](.vscodesettings)
+
+Settings so ESLint works on HTML files.
 
 ### Editor
 
