@@ -1,4 +1,6 @@
 {
+    "editor.wordWrap": "on",
+    
     "eslint.validate": [
         "javascript",
         "javascriptreact",
