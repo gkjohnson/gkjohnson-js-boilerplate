@@ -18,7 +18,7 @@ A painless, nearly config-less build platform that can build staticly served htm
 
 ```sh
 # Build a project and output urls with a relative path
-parcel-bundler build <file.ext> --public-url ./ --no-cache --no-maps
+parcel build <file.ext> --public-url ./ --no-cache --no-source-maps
 ```
 
 ### Tests
