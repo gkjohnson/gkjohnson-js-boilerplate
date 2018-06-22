@@ -9,7 +9,8 @@
   },
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "browser": true
   },
   "plugins": [
     "html"
@@ -189,7 +190,6 @@
         "allowSwitch": false
       }
     ],
-    "no-lone-blocks": "error",
     "no-mixed-operators": [
       "error",
       {
