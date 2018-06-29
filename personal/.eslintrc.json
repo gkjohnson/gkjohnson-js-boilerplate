@@ -321,6 +321,7 @@
       }
     ],
     "prefer-promise-reject-errors": "error",
+    "prefer-const": "error",
     "quotes": [
       "error",
       "single",
