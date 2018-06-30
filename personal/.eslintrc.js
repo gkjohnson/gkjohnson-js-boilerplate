@@ -1,3 +1,4 @@
+module.exports =
 {
   "root": true,
   "parserOptions": {
@@ -12,9 +13,7 @@
     "node": true,
     "browser": true
   },
-  "plugins": [
-    "html"
-  ],
+  "plugins": [],
   "globals": {
     "document": false,
     "navigator": false,
@@ -315,7 +314,9 @@
     "padded-blocks": [
       "error",
       {
-        "blocks": "always",
+        // This doesn't allow functions to be declared as a single line
+        // https://github.com/eslint/eslint/issues/7145#issuecomment-281882639
+        // "blocks": "always",
         "switches": "always",
         "classes": "always"
       }
@@ -351,7 +352,7 @@
     ],
     "space-before-function-paren": [
       "error",
-      "always"
+      "never"
     ],
     "space-in-parens": [
       "error",
