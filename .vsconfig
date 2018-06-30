@@ -1,4 +1,6 @@
 {
+    "debug.toolBarLocation": "docked",
+    
     "editor.wordWrap": "on",
     
     "eslint.validate": [
