@@ -12,7 +12,7 @@ My set of minimal-config dev libraries for new Javascript projects
 
 ### Bundling
 
-[Parcel.js](https://parceljs.org/)
+#### [Parcel.js](https://parceljs.org/)
 
 A painless, nearly config-less build platform that can build staticly served html pages out of the box and supports a variety of transpiled languages and dev servers.
 
@@ -21,31 +21,63 @@ A painless, nearly config-less build platform that can build staticly served htm
 parcel build <file.ext> --public-url ./ --no-cache --no-source-maps
 ```
 
-### Tests
+### Testing
 
-TODO document test procedure
+#### [Puppeteer](https://github.com/GoogleChrome/puppeteer)
+
+For client side tests and html that can only be tested in the browser.
+
+#### [Jest](https://jestjs.io/)
+
+General javascript testing and assertion framework.
 
 ### Code-Style
 
-#### [ESLint](.eslintrc)
+#### [ESLint](https://eslint.org/)
+
+[.eslintrc](.eslintrc)
 
 Requires a `eslint` and `eslint-plugin-html` packages to be installed to work.
 
-#### [HTMLHint](.htmlhintrc)
+#### [HTMLHint](https://github.com/yaniswang/HTMLHint)
+
+[.htmlhintrc](.htmlhintrc)
 
 Requires `htmlhint` packages to be installed.
 
-#### [StyleLint](.stylelintrc)
+#### [StyleLint](https://stylelint.io/)
+
+[.stylelintrc](.stylelintrc)
 
 TODO get familiar, document
 
-#### [EditorConfig](.editorconfig)
+#### [EditorConfig](https://editorconfig.org/)
+
+[.editorconfig](.editorconfig)
 
 Requires editor plugin sometimes
 
-#### [VSCode User Settings](.vscodesettings)
+#### VSCode User Settings
+
+[.vscodesettings](.vscodesettings)
 
 Settings so ESLint works on HTML files.
+
+### Continuous Integration
+
+#### [LGTM](https://lgtm.com)
+
+For code cleanliness and sanity.
+
+#### [Travis-CI](https://travis-ci.org/)
+
+For running tests against master and PRs.
+
+#### To Consider
+
+https://david-dm.org/
+
+https://codecov.io/
 
 ### Editor
 
