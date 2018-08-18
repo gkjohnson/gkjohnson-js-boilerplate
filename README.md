@@ -31,6 +31,12 @@ For client side tests and html that can only be tested in the browser.
 
 General javascript testing and assertion framework.
 
+#### [Istanbul](https://istanbul.js.org/)
+
+For code coverage awareness.
+
+The `puppeteer-to-istanbul` package can help visualize the puppeteer code coverage.
+
 ### Code-Style
 
 #### [ESLint](https://eslint.org/)
