@@ -1,13 +1,23 @@
 {
   "scripts": {
     "start": "static-server",
-    "build": "parcel build index.html --public-url ./"
+    "build": "parcel build index.html --public-url ./",
+    "lint": "eslint .",
+    "test": "jest"
   },
   "license": "MIT",
   "devDependencies": {
     "static-server": "",
+    
     "eslint": "",
     "eslint-plugin-html": "",
-    "parcel-bundler": ""
+    
+    "parcel-bundler": "",
+    
+    "nyc": "",
+    
+    "puppeteer": "",
+    "jest": "",
+    "jest-cli": ""
   }
 }
